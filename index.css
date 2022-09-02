@@ -6,11 +6,34 @@ body {
 
 .logo-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100%;
 }
 
+#construction-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 #escudo {
   width: 30%;
+  max-width: 300px;
+  align-self: center;
+}
+
+#tractor {
+  width: 2rem;
+  align-self: center;
+  margin-right: 1rem;
+  transform: scale(-1, 1);
+}
+
+#construction-container > span {
+  text-align: center;
+  font-size: 24px;
+  color: #ffc319;
+  height: fit-content;
   align-self: center;
 }

@@ -1,0 +1,16 @@
+body {
+  background-color: #640000;
+  height: 100vh;
+  margin: 0;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#escudo {
+  width: 30%;
+  align-self: center;
+}

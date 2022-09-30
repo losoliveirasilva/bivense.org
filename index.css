@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   background-color: var(--biv-yellow);
   color: var(--biv-blue);
-  padding: 1rem;
+  padding: 1rem 3rem;
 }
 
 footer {

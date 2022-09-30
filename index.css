@@ -85,3 +85,7 @@ a {
   display: flex;
   gap: 1rem;
 }
+
+#header-title {
+  font-variant: small-caps;
+}

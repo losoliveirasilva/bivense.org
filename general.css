@@ -6,12 +6,18 @@
 
 body {
   background-color: var(--biv-red);
-  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
   margin: 0;
 }
 
 main {
-  height: calc(100% - 6rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 1rem 3rem;
 }
 
 header {
@@ -26,8 +32,8 @@ footer {
   background-color: var(--biv-yellow);
   color: var(--biv-blue);
   justify-content: center;
-  height: 3rem;
   display: flex;
+  padding: 1rem 3rem;
 }
 
 footer span {

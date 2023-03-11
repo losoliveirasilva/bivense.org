@@ -1,0 +1,38 @@
+.wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  row-gap: 3rem;
+}
+
+.bible,
+.commandments {
+  display: flex;
+  flex-direction: column;
+}
+
+.bible {
+  padding-block: 1rem;
+  row-gap: 1rem;
+}
+
+.commandments {
+  justify-content: center;
+  row-gap: 2rem;
+  color: var(--biv-yellow);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bivensialismo {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+}
+
+.motto {
+  color: var(--biv-yellow);
+}

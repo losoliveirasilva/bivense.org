@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--biv-yellow);
+  color: var(--biv-blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.headerLink:hover {
+  text-decoration: underline;
+}
+
+.headerLink.active {
+  text-decoration: underline;
+}
+
+.headerLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.headerTitle {
+  font-variant: small-caps;
+}

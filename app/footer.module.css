@@ -1,0 +1,7 @@
+.footer {
+  background-color: var(--biv-yellow);
+  color: var(--biv-blue);
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+}
